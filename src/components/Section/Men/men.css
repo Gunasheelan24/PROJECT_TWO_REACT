@@ -1,0 +1,220 @@
+.mobile_filter {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(2, 1fr);
+    position: fixed;
+    width: 100%;
+    background-color: rgb(217, 158, 158);
+    height: 55px;
+    bottom: 0;
+    align-items: center;
+    justify-items: center;
+    z-index: 100;
+    display: none !important;
+}
+
+.sort_men_mobile {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    background-color: rgb(37, 16, 16);
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn_filter_mobile {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    background-color: rgb(6, 49, 119);
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon_inside_btn {
+    margin-top: 5px;
+}
+
+.main-men-mobile {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(2, 1fr);
+    position: fixed;
+    width: 100%;
+    bottom: 6.2%;
+}
+
+#only_on_mobile_filter {
+    display: none !important;
+}
+
+.mobile_men_sort {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 12px 3px wheat;
+    padding: 10px;
+    height: 240px;
+    font-family: "Inter", sans-serif;
+}
+
+.filter_sort {
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.hr_mobile_men {
+    margin-top: 5px;
+}
+
+.para_btn_mobile_filter {
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    border: 1px solid wheat;
+    color: black;
+    background-color: wheat;
+    font-weight: 500;
+    padding: 4px 9px 4px 9px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.men-text-decoration {
+    font-family: "Stick No Bills", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+/* Men Grid System */
+
+.home_second_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.home_second_div:first-child {
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+}
+
+.icons-right-arrow {
+    margin-top: 1px;
+}
+
+.home_second_div:last-child {
+    margin-top: 1px;
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+}
+
+.men_grid_system {
+    display: grid;
+    grid-template-columns: 320px repeat(3, 280px);
+    justify-content: space-between;
+}
+
+.filter_Section {
+    justify-self: center;
+}
+
+.top_filter_section {
+    text-align: center;
+}
+
+.top_filter_section>p:first-child {
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 5px;
+}
+
+.top_filter_section>p:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+.top_filter_section>p:nth-child(4) {
+    margin-top: 3px;
+}
+
+.btn-men-clear-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.btn-clear_men {
+    background-color: darkcyan;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 6px 5px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.byPrice_filter {
+    margin-top: 10px;
+}
+
+.content_filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_by_filter {
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.right_content_filter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.right_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.btn_price_below {
+    background-color: white;
+    border: 1px solid wheat;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    box-shadow: 1px 1px 2px 3px #eeee;
+    cursor: pointer;
+}
+
+@media screen and (min-width:300px) and (max-width: 500px) {
+    .mobile_filter {
+        display: grid !important;
+    }
+
+    .filter_Section {
+        display: none;
+    }
+}

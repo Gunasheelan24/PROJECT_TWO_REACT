@@ -1,0 +1,188 @@
+.profile_container {
+    padding-top: 90px;
+    margin: 0 50px;
+}
+
+.profile_child_one {
+    position: relative;
+    height: 150px;
+}
+
+.edit_container_ {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img_cover_profile {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.img_proifle_picture {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 600px;
+    filter: drop-shadow(10px 3px 20px black);
+}
+
+.edit_pen {
+    position: absolute;
+    left: 12.5%;
+    top: 15%;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.profile_child_two {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #eee;
+    padding: 4px;
+}
+
+.personal_profile {
+    font-family: "poppins", sans-serif;
+    color: green;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.name_user {
+    font-size: 2.1rem;
+    color: teal;
+    font-family: "poppins";
+    margin-left: 20px;
+}
+
+.user_details {
+    margin: 0 20px;
+}
+
+.email-icon {
+    position: relative;
+    top: 5px;
+    font-size: 1.1rem;
+}
+
+.user_details>p:nth-child(1) {
+    font-size: 0.9rem;
+    font-family: "poppins", sans-serif;
+}
+
+.phone-icon {
+    position: relative;
+    top: 1px;
+    font-size: 1rem;
+}
+
+.user_details>p:nth-child(2) {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-family: "poppins", sans-serif;
+}
+
+.border_address_user {
+    width: 500px;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.address_details {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.address_user {
+    font-family: "poppins", sans-serif;
+    color: green;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.name_user_profile {
+    font-size: 1rem;
+    margin-top: 8px;
+    color: mediumpurple;
+    font-family: "Inter", sans-serif;
+}
+
+.name_onAddress {
+    font-family: "Inter", sans-serif;
+    margin-top: 4px;
+    color: black;
+    font-weight: 500;
+}
+
+.address_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_btn_user {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_edit_user {
+    padding: 4px;
+    background-color: black;
+    border-radius: 4px;
+    color: whitesmoke;
+    border: none;
+    width: 200px;
+    font-family: "poppins", sans-serif;
+    font-size: 0.96rem;
+    margin-top: 10px;
+}
+
+#container_order {
+    border: 1px solid #eee;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.history_profile {
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+}
+
+.history_des {
+    font-family: "Inter", sans-serif;
+    color: slategrey;
+}
+
+.input_box_user {
+    margin-top: 10px;
+}
+
+.input_box_user>input {
+    padding: 4px;
+    width: 60%;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #df8c8c;
+    font-family: "poppins", sans-serif;
+}
+
+.input_box_user>input::placeholder {
+    font-family: "poppins", sans-serif;
+}

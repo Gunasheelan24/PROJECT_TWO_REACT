@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: pink;
+    outline: pink;
+}

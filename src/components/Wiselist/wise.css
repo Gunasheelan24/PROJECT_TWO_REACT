@@ -1,0 +1,65 @@
+ #empty_wiseList {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column;
+     margin: 50px 50px;
+ }
+
+ .img_girl_wise {
+     width: 200px;
+ }
+
+ .btn-collection {
+     width: 140px;
+     border: none;
+     color: whitesmoke;
+     background-color: black;
+     margin-top: 5px;
+     padding: 8px;
+     font-family: "Inter", sans-serif;
+     border-radius: 7px;
+     font-size: 0.9rem;
+     cursor: pointer;
+ }
+
+ #container_recomendation {
+     margin: 10px 50px;
+     font-family: "Inter", sans-serif;
+     font-weight: 500;
+ }
+
+ .wise-bottom {
+     margin-top: 2px;
+ }
+
+ .remove_link {
+     color: black !important;
+     text-decoration: none;
+ }
+
+ .remove_link:hover {
+     color: red !important;
+ }
+
+ @media screen and (max-width: 833px) {
+     .container_recomendation {
+         margin: 10px 5px !important;
+     }
+
+     #container_recomendation {
+         margin: 10px 13px;
+     }
+
+     .not-only-mobile {
+         display: none;
+     }
+
+     .hey_wise_list {
+         font-size: 0.75rem !important;
+     }
+
+     .text_container_cart {
+         margin: 20px 15px;
+     }
+ }

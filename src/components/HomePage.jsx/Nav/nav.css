@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Link {
+    color: black;
+    text-decoration: none;
+}
+
+.container_mobile_nav {
+    background-color: rgb(245, 241, 233);
+    border-bottom: 1px solid darkcyan;
+    padding: 10px;
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.container_navigation {
+    position: sticky;
+    top: 0;
+    height: 66px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-areas: 'leftSide centerSide rightSide';
+    padding: 15px;
+    background-color: rgb(245, 241, 233);
+    z-index: 1000;
+}
+
+/* Left Div */
+
+.nav_left {
+    grid-area: leftSide;
+    position: relative;
+    width: 100%;
+}
+
+.unorder_nav {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+
+.list_nav {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Center Div */
+
+.nav_center {
+    grid-area: centerSide;
+}
+
+.eb-garamond {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.logo_span0 {
+    color: #5D3A58;
+}
+
+.logo_span1 {
+    color: #D4AF37;
+}
+
+.logo_span2 {
+    color: #203354;
+}
+
+.logo_span3 {
+    color: #9CAD92;
+}
+
+.logo_span4 {
+    color: #5D3A58;
+}
+
+.logo_span5 {
+    color: #D4AF37;
+}
+
+/* Right Div */
+
+.nav_right {
+    grid-area: rightSide;
+    position: relative;
+    width: 100%;
+}
+
+.container_icons {
+    user-select: none;
+    -webkit-user-select: none;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.heart_icons {
+    font-size: 1.8rem;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.cart_icons {
+    font-size: 1.7rem;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.btn_nav {
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    outline: 1px solid darkcyan;
+}
+
+
+@media screen and (min-width:901px) {
+    .container_mobile_nav {
+        display: none;
+    }
+}
+
+/* For Ipad's */
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .nav_center {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 899px) {
+    .nav_right {
+        display: none;
+    }
+
+    .nav_center {
+        display: none;
+    }
+
+    .nav_left {
+        grid-column: 1 / 4 !important;
+    }
+
+    .unorder_nav {
+        justify-content: center;
+        gap: 27px;
+        font-family: "Inter", sans-serif;
+    }
+
+    .list_nav {
+        font-size: 1.1rem;
+    }
+
+    .container_mobile_nav {
+        align-items: center;
+        display: grid;
+        grid-template-rows: 1;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eb-garamond {
+        font-size: 1.3rem;
+        text-align: start;
+    }
+
+    .container_icons {
+        width: 98%;
+    }
+
+    .heart_icons {
+        font-size: 1.7rem;
+    }
+
+    .btn_nav {
+        height: 34px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+    .container_navigation {
+        height: 50px;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+    .nav_center {
+        display: none;
+    }
+
+    .nav_left {
+        grid-column: 1 / 4 !important;
+    }
+
+    .unorder_nav {
+        justify-content: center;
+        gap: 27px;
+        font-family: "Inter", sans-serif;
+    }
+
+    .list_nav {
+        font-size: 0.8rem;
+    }
+
+    .container_mobile_nav {
+        align-items: center;
+        display: grid;
+        grid-template-rows: 1;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eb-garamond {
+        font-size: 1.3rem;
+        text-align: start;
+    }
+
+    .container_icons {
+        width: 95%;
+    }
+
+    .heart_icons {
+        font-size: 1.7rem;
+    }
+
+    .btn_nav {
+        height: 34px;
+    }
+}

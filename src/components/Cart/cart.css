@@ -1,0 +1,153 @@
+#main_container_cart {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.text_container_cart {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.text_container_cart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.text_container_cart>p:nth-child(2) {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+/* Layer One */
+#layer_one {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+#layer_one>p:nth-child(1) {
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+}
+
+#layer_one>p:nth-child(2) {
+    font-size: 0.9rem;
+    font-family: "Inter", sans-serif;
+}
+
+#layer_two {
+    margin: 10px 50px;
+}
+
+#layer_two>table>tbody>tr>td:nth-child(1) {
+    display: flex;
+    gap: 25px;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+}
+
+#layer_two>table>tbody>tr>td:nth-child(2) {
+    text-align: start;
+    width: 400px;
+}
+
+
+.th_style_cart {
+    text-align: start;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+}
+
+.img_cart {
+    width: 60px;
+    border-radius: 5px;
+}
+
+
+.qty_div_cart {
+    font-size: 1.4rem;
+    color: black;
+    cursor: pointer;
+}
+
+.qty_div_cart:hover {
+    color: red;
+}
+
+/* Right Side  */
+
+.right_side_cart {
+    margin: 50px 30px;
+}
+
+.summary_text_cart {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.right_side_div_cart {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+}
+
+
+/* Bottom Div */
+
+#bottom_container_cart {
+    position: absolute;
+    bottom: 0%;
+    right: 27%;
+}
+
+.btn_cart {
+    width: 200px;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+}
+
+
+.remove_link {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) and (max-width:800px) {
+    .text_container_cart {
+        margin: 20px 20px;
+    }
+
+    #layer_one {
+        margin: 10px 10px;
+    }
+
+    #layer_two {
+        margin: 10px 10px;
+    }
+
+    .th_style_cart {
+        font-size: 0.9rem;
+    }
+
+    #layer_two>table>tbody>tr>td:nth-child(1) {
+        width: 260px;
+        gap: 12px;
+        font-size: 0.9rem;
+    }
+}

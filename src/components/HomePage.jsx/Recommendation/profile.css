@@ -1,0 +1,310 @@
+.topSectionProfile {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* First Div */
+.first_profile {
+    padding: 9px;
+    box-shadow: 1px 1px 4px 1px #ecdfdfee;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.imgHomePageProfile {
+    width: 30%;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.user_profile_name {
+    font-family: "poppins", sans-serif;
+    font-size: 0.9rem;
+}
+
+.user_recomend_profile {
+    font-family: "poppins", sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Second */
+.second_profile {
+    padding: 9px;
+    box-shadow: 1px 1px 4px 1px #ecdfdfee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.imgHomeShirtProfile {
+    width: 25%;
+    height: 71px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.price_category_one {
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.shirt_category_one {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.third_profile {
+    padding: 9px;
+    box-shadow: 1px 1px 4px 1px #ecdfdfee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Four Div */
+
+.four_profile {
+    padding: 9px;
+    box-shadow: 1px 1px 4px 1px #ecdfdfee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.first_profile:hover,
+.second_profile:hover,
+.third_profile:hover,
+.four_profile:hover {
+    background-color: pink;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1300px) {
+    .topSectionProfile {
+        grid-template-columns: repeat(4, 240px);
+    }
+
+    .imgHomePageProfile {
+        width: 35%;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .imgHomeShirtProfile {
+        width: 32%;
+        height: 71px;
+        object-fit: cover;
+        border-radius: 35px;
+    }
+
+    .user_profile_name {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .user_recomend_profile {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .shirt_category_one {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .price_category_one {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+    .topSectionProfile {
+        grid-template-columns: repeat(4, 200px);
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
+    .imgHomePageProfile {
+        width: 33%;
+        height: 59px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .imgHomeShirtProfile {
+        width: 30%;
+        height: 56px;
+        object-fit: cover;
+        border-radius: 35px;
+    }
+
+    .user_profile_name {
+        font-size: 0.66rem;
+        font-weight: 400;
+    }
+
+    .user_recomend_profile {
+        font-size: 0.60rem;
+        font-weight: 400;
+    }
+
+    .shirt_category_one {
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+
+    .price_category_one {
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .topSectionProfile {
+        grid-template-columns: repeat(3, 190px);
+        margin-bottom: 20px;
+        margin-top: 22px;
+        justify-content: center;
+    }
+
+    .topSectionProfile>div:last-child {
+        display: none;
+    }
+
+    .imgHomePageProfile {
+        width: 33%;
+        height: 59px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .imgHomeShirtProfile {
+        width: 30%;
+        height: 56px;
+        object-fit: cover;
+        border-radius: 35px;
+    }
+
+    .user_profile_name {
+        font-size: 0.66rem;
+        font-weight: 400;
+    }
+
+    .user_recomend_profile {
+        font-size: 0.60rem;
+        font-weight: 400;
+    }
+
+    .shirt_category_one {
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+
+    .price_category_one {
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px) {
+    .topSectionProfile {
+        grid-template-rows: 2;
+        grid-template-columns: repeat(2, 190px);
+        margin-bottom: 20px;
+        margin-top: 22px;
+        justify-content: center;
+    }
+
+    .imgHomePageProfile {
+        width: 33%;
+        height: 59px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .imgHomeShirtProfile {
+        width: 30%;
+        height: 56px;
+        object-fit: cover;
+        border-radius: 35px;
+    }
+
+    .user_profile_name {
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .user_recomend_profile {
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+
+    .shirt_category_one {
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    .price_category_one {
+        font-weight: 500;
+        font-size: 0.74rem;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 399px) {
+    .topSectionProfile {
+        grid-template-rows: 2;
+        grid-template-columns: repeat(2, 145px);
+        margin-bottom: 20px;
+        margin-top: 60px;
+        justify-content: center;
+    }
+
+    .imgHomePageProfile {
+        width: 40%;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .imgHomeShirtProfile {
+        width: 40%;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 35px;
+    }
+
+    .user_profile_name {
+        font-size: 0.65rem;
+        font-weight: 600;
+    }
+
+    .shirt_category_one {
+        font-weight: 700;
+        font-size: 0.6rem;
+    }
+
+    .price_category_one {
+        font-weight: 700;
+        font-size: 0.6rem;
+    }
+
+    .user_recomend_profile {
+        display: none;
+    }
+}

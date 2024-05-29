@@ -1,0 +1,231 @@
+#footer_header_container {
+    margin-top: 50px;
+    color: black !important;
+    padding-bottom: 20px;
+    background-color: bisque;
+    border-radius: 20px 20px 0 0;
+}
+
+.inner_first_footer_main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 85px 20px 85px;
+}
+
+.top_footer_container_right {
+    align-self: center;
+}
+
+
+#top_footer_container {
+    align-self: flex-end;
+}
+
+.text_sub_footer {
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.container_top_inner_footer {
+    display: flex;
+    align-items: center;
+}
+
+.input_footer {
+    border-bottom: 1px solid wheat;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 15px;
+    height: 30px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 3px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.input_footer::placeholder {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+
+.btn_footer_sub {
+    border-bottom: 1px solid wheat;
+    border-top: 0;
+    cursor: pointer;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 2px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: darkgrey;
+}
+
+.icons_footer {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.icons_footer:hover {
+    color: red;
+}
+
+.inner_icons_footer {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.hr_link_footer {
+    opacity: 0.3;
+}
+
+.logo_brand_footer {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#bottom_id_footer {
+    display: flex;
+    position: relative;
+    /* top: 1%; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px 0 80px;
+}
+
+.brand_slogan_footer {
+    font-family: 100;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.contact_customer_Care_footer {
+    font-family: "Lato", sans-serif;
+    font-size: 0.9rem;
+}
+
+.right_footer {
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: "Lato", sans-serif;
+}
+
+.none_user_footer {
+    -webkit-user-select: none;
+    user-select: none;
+    color: transparent;
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+    .contact_customer_Care_footer {
+        font-size: 0.6rem;
+    }
+
+    #bottom_id_footer {
+        margin: 0 20px 0 20px;
+    }
+
+    .text-text_footer {
+        text-align: center;
+    }
+
+    .logo_brand_footer {
+        font-size: 0.8rem;
+    }
+
+    .text_sub_footer {
+        font-size: 0.6rem;
+    }
+
+    .icons_footer {
+        font-size: 1.4rem;
+    }
+
+    .input_footer {
+        width: 240px;
+    }
+
+    .right_footer {
+        font-size: 0.5rem;
+    }
+
+    .brand_slogan_footer {
+        font-size: 0.6rem;
+    }
+
+    .inner_first_footer_main {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 20px 20px 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:699px) {
+    .input_footer {
+        width: 130px;
+    }
+
+    #bottom_id_footer {
+        margin: 0 12px 0 12px;
+    }
+
+    .inner_first_footer_main {
+        margin: 10px 12px 20px 12px;
+    }
+
+    .right_footer {
+        font-size: 0.4rem;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .input_footer {
+        width: 130px;
+    }
+
+    #bottom_id_footer {
+        margin: 0 10px 0 10px;
+    }
+
+    .logo_brand_footer {
+        font-size: 0.6rem;
+    }
+
+    .text_sub_footer {
+        font-size: 0.7rem;
+    }
+
+    .icons_footer {
+        font-size: 1rem;
+    }
+
+    .inner_first_footer_main {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 12px 20px 12px;
+    }
+
+    .brand_slogan_footer {
+        font-size: 0.6rem;
+    }
+
+    .right_footer {
+        font-size: 0.6rem;
+    }
+
+    .contact_customer_Care_footer {
+        font-size: 0.7rem;
+    }
+
+}

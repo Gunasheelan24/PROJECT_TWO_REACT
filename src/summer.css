@@ -1,0 +1,21 @@
+#summer_top_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-rows: 2;
+    background-color: black;
+    height: 300px;
+    gap: 20px;
+    margin: 10px 60px;
+}
+
+.grid_row_top {
+    background: wheat;
+    grid-row-start: 1 !important;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.one_img_summer {
+    width: 350px;
+}
